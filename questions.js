@@ -1,167 +1,522 @@
 const questions = [
   {
-    "question": "1. What is the main purpose of the Technical Log?",
-    "options": ["To schedule pilot training activities", "To record aircraft defects, maintenance, and operating information", "To log fuel prices at different airports"],
+    "question": "64. Which sequence correctly represents the central dogma followed by retroviruses?",
+    "options": [
+      "DNA → RNA → Protein",
+      "RNA → DNA → RNA → Protein",
+      "RNA → Protein → DNA",
+      "DNA → Protein → RNA"
+    ],
     "correct": 1
   },
   {
-    "question": "2. Who is responsible for checking the Technical Log before engine start?",
-    "options": ["Only the instructor", "Ground maintenance crew", "All flight crew members, including students on solo flights"],
+    "question": "65. Which virus possesses a double-stranded DNA genome?",
+    "options": [
+      "Influenza virus",
+      "HIV",
+      "Rubella virus",
+      "Smallpox virus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "66. Which of the following is mismatched?",
+    "options": [
+      "Parvovirus — ssDNA",
+      "Adenovirus — dsDNA",
+      "Influenza virus — dsRNA",
+      "HIV — ssRNA"
+    ],
     "correct": 2
   },
   {
-    "question": "3. What does the PIC certify when signing the 'Aircraft Technical Log Sector Record'?",
-    "options": ["That the aircraft has been washed and cleaned", "That the crew is well-rested", "Satisfaction with the Pre-Flight Inspection and Fuel/Oil status"],
+    "question": "67. Which enzyme in bacteriophages helps digest the bacterial cell wall during penetration?",
+    "options": [
+      "Integrase",
+      "Reverse transcriptase",
+      "Lysozyme",
+      "Protease"
+    ],
     "correct": 2
   },
   {
-    "question": "4. Who can certify that a defect has been rectified and release the aircraft back to service?",
-    "options": ["A senior student pilot", "A certified engineer", "The PIC"],
-    "correct": 1
-  },
-  {
-    "question": "5. What happens if a flight crew enters a defect in the log?",
-    "options": ["The log is reviewed after the flight ends", "The aircraft can continue operating without checks", "The Certificate of Airworthiness is invalid until it is cleared or deferred"],
+    "question": "68. The structure formed by nucleic acid and capsid together is called:",
+    "options": [
+      "Envelope",
+      "Capsomere",
+      "Nucleocapsid",
+      "Provirus"
+    ],
     "correct": 2
   },
   {
-    "question": "6. Why must PICs check the hours remaining before every flight?",
-    "options": ["To check fuel consumption", "To avoid exceeding the hours available before the next inspection", "To schedule rest periods for the crew"],
+    "question": "69. _____ infection is caused by a viroid.",
+    "options": [
+      "Hepatitis A",
+      "Hepatitis D",
+      "Mad cow disease",
+      "Mysterious brain infection"
+    ],
     "correct": 1
   },
   {
-    "question": "7. What should be done if the total flight time plus current hours are within one hour of a scheduled maintenance?",
-    "options": ["Add a note in the log and proceed", "Complete the flight and report it later", "Contact maintenance and do not accept the airplane"],
+    "question": "70. Tobacco mosaic virus was discovered by:",
+    "options": [
+      "Stanley",
+      "Pasteur",
+      "Ivanowsky",
+      "D' Herelle"
+    ],
     "correct": 2
   },
   {
-    "question": "8. Who is responsible for ensuring previous defects have been cleared or deferred before accepting the aircraft?",
-    "options": ["The engineer", "The PIC", "Air Traffic Control"],
-    "correct": 1
-  },
-  {
-    "question": "9. What should be written in the Tech Log if there are no defects after a flight sector?",
-    "options": ["CLEARED", "NIL DEFECTS", "OK TO FLY"],
-    "correct": 1
-  },
-  {
-    "question": "10. If a defect is found after the acceptance has been signed, where should it be recorded?",
-    "options": ["In the previous Techlog entry", "Only in the pilot's personal logbook", "On a new Techlog page"],
-    "correct": 2
-  },
-  {
-    "question": "11. When is it acceptable for some aircraft equipment to be inoperative?",
-    "options": ["When the crew agrees", "When it's not required for airplane safety and allowed under MEL", "During night flights only"],
-    "correct": 1
-  },
-  {
-    "question": "12. Who makes defect entries in the Tech Log for student pilots?",
-    "options": ["The air traffic controller", "The student in consultation with their FI or DFI", "Only the maintenance staff"],
-    "correct": 1
-  },
-  {
-    "question": "13. What are Deferred Defects?",
-    "options": ["Defects that are ignored until they become serious", "Defects that don’t affect operational capability and can be fixed later", "Temporary notes in the flight plan"],
-    "correct": 1
-  },
-  {
-    "question": "14. Who is responsible for completing post-flight documentation?",
-    "options": ["The co-pilot only", "The ground staff", "The PIC"],
-    "correct": 2
-  },
-  {
-    "question": "15. What times must the PIC record after every flight?",
-    "options": ["Off-Blocks, Takeoff, Landing, and On-Blocks times", "Off-block to on-block only", "Meal breaks and fuel stops"],
+    "question": "71. Viruses cannot replicate in:",
+    "options": [
+      "Blood plasma",
+      "Skin cells",
+      "A plant cell",
+      "Hepatocytes"
+    ],
     "correct": 0
   },
   {
-    "question": "16. What should be done if defects are recorded post-flight?",
-    "options": ["Enter them in the defect column and remove the Techlog to the stores counter", "Note them verbally to maintenance", "Skip entry if they’re minor issues"],
+    "question": "72. Volume of bacteriophage is about _____ of host.",
+    "options": [
+      "1/10",
+      "1/100 times",
+      "1/100",
+      "1/1000"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "73. Which of the following is composed of nucleic acids only?",
+    "options": [
+      "Viruses",
+      "Virion",
+      "Viroids",
+      "Prions"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "74. In prions, information is carried further through:",
+    "options": [
+      "DNA",
+      "RNA",
+      "Proteins",
+      "Glycoproteins"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "75. Which component is responsible for determination of shape of viruses is?",
+    "options": [
+      "Type of nucleic acids",
+      "Capsid",
+      "Type of hosts",
+      "Viral envelope"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "76. A virion is a:",
+    "options": [
+      "Virus",
+      "Capsid",
+      "Viral lysozyme",
+      "Viral gene"
+    ],
     "correct": 0
   },
   {
-    "question": "17. How should the Technical Log be filled out?",
-    "options": ["Only in shorthand", "As quickly as possible", "Accurately, legibly, and in full"],
-    "correct": 2
-  },
-  {
-    "question": "18. What time format is used for takeoff and landing times?",
-    "options": ["UTC (Coordinated Universal Time)", "Local Time", "Pilot's watch time"],
+    "question": "77. The genome of most of the animal viruses contain:",
+    "options": [
+      "DNA",
+      "Protein",
+      "RNA",
+      "Both DNA and RNA"
+    ],
     "correct": 0
   },
   {
-    "question": "19. What defines 'Flight Time'?",
-    "options": ["Time from first engine start to shut down", "Time the crew is onboard", "Time from takeoff to landing"],
-    "correct": 2
-  },
-  {
-    "question": "20. What defines 'Block Time'?",
-    "options": ["The time the aircraft is in the hangar", "Time from OFF blocks to ON blocks", "Time from parking brake to engine off"],
+    "question": "78. Among followings, _____ enzyme is naturally found in human immunodeficiency virus.",
+    "options": [
+      "DNA-polymerase",
+      "Reverse transcriptase",
+      "RNA polymerase",
+      "Ligase"
+    ],
     "correct": 1
   },
   {
-    "question": "21. What must all crew check in the Technical Log before each flight?",
-    "options": ["The maintenance statement page for pending tasks", "The destination fuel policy", "The weather radar status"],
+    "question": "79. In lytic cycle of bacteriophage, the phage is regarded as:",
+    "options": [
+      "Master",
+      "Inducer",
+      "Guest",
+      "Slave"
+    ],
     "correct": 0
   },
   {
-    "question": "22. When the PIC enters a defect, what else must be included in the entry?",
-    "options": ["Flight number and airport code", "Initials, full printed name, and staff number in capital letters", "Phone number for contact"],
+    "question": "80. The part of bacteriophage that enters into the host cell is:",
+    "options": [
+      "Protein sheath",
+      "Genome",
+      "Protein coat",
+      "Tail"
+    ],
     "correct": 1
   },
   {
-    "question": "23. How should the times recorded in the logbook, tech log, and flight plan compare?",
-    "options": ["Only the logbook needs accurate times", "They may differ slightly", "They must all match exactly"],
+    "question": "81. The bacteriophage attaches itself by its tail to the cell wall of bacterium at:",
+    "options": [
+      "Anywhere on the cell",
+      "Adhering surface",
+      "Receptor site",
+      "Binding site"
+    ],
     "correct": 2
   },
   {
-    "question": "24. After recording flight times, where must they also be entered?",
-    "options": ["In the engine log only", "Into TALON ETA system", "In the pilot’s notebook"],
-    "correct": 1
-  },
-  {
-    "question": "25. What must be used for each flight sector?",
-    "options": ["A new aircraft registration", "A pilot report", "At least one sector page"],
+    "question": "82. Enzyme that is present in a virus also:",
+    "options": [
+      "Dehydrogenase",
+      "Urease",
+      "Lysozyme",
+      "Arginase"
+    ],
     "correct": 2
   },
   {
-    "question": "26. Who is responsible for completing the Data blocks for an inbound flight?",
-    "options": ["Ground engineer", "Captain of the inbound flight", "First Officer"],
-    "correct": 1
+    "question": "83. Most commonly, lesions can be seen around mouth, lips and at other skin sites in:",
+    "options": [
+      "Influenza",
+      "Polio",
+      "Mumps",
+      "Herpes"
+    ],
+    "correct": 3
   },
   {
-    "question": "27. Which information must be completed in the Data blocks?",
-    "options": ["Fuel consumption rate", "Weather details", "Aircraft type, registration, flight number, and IATA station codes"],
-    "correct": 2
-  },
-  {
-    "question": "28. What should be done for Flight type on the log?",
-    "options": ["Write \"Yes\" or \"No\"", "Leave it blank", "Circle Y or N"],
-    "correct": 2
-  },
-  {
-    "question": "29. Which times must be entered in UTC format?",
-    "options": ["Departure date and arrival time", "Cruise speed", "Off blocks, takeoff, land, and on blocks"],
-    "correct": 2
-  },
-  {
-    "question": "30. What are extra landings?",
-    "options": ["Landings more than one in a flight, mainly for training", "Emergency landings", "Landings with passengers only"],
+    "question": "84. Viral inflammation of parotid gland is commonly associated with:",
+    "options": [
+      "Mumps",
+      "Small pox",
+      "Herpes simplex",
+      "Influenza"
+    ],
     "correct": 0
   },
   {
-    "question": "31. How is sector time calculated?",
-    "options": ["Land time minus takeoff time", "Total flying hours minus rest period", "On blocks minus off blocks"],
+    "question": "85. The enzyme involved in viral replication are synthesized only by the:",
+    "options": [
+      "Host cell",
+      "Interior surface of viral membrane",
+      "Viral ribosomes",
+      "Interior surface of viral coat"
+    ],
     "correct": 0
   },
   {
-    "question": "32. What must be transferred from the previous log page?",
-    "options": ["Departure date", "Current total hours", "Weather report"],
+    "question": "86. Virus that affects genital organs:",
+    "options": [
+      "HCV",
+      "HSV",
+      "HIV",
+      "Pox virus"
+    ],
     "correct": 1
   },
   {
-    "question": "33. How is the current total hours for the flight calculated?",
-    "options": ["Fuel used multiplied by hours flown", "SECTOR TIME + PREVIOUS LOG HOURS BROUGHT FORWARD", "Flight duration minus taxi time"],
+    "question": "87. Which of the following disease infection is caused by a viroid?",
+    "options": [
+      "AIDS",
+      "Hepatitis B",
+      "Hepatitis C",
+      "Hepatitis D"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "88. _____ is known to cause cancers in animals.",
+    "options": [
+      "Polio virus",
+      "HBV",
+      "Retroviruses",
+      "TMV"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "89. It acts as a template strand for the reverse transcriptase:",
+    "options": [
+      "Viral DNA molecule",
+      "Host DNA molecule",
+      "Viral RNA molecule",
+      "Host RNA molecule"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "90. The phenomenon of transcription in HIV life cycle occurs in:",
+    "options": [
+      "Nucleus",
+      "Inside viral capsid",
+      "Cytoplasm",
+      "None of these"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "91. Attachment of HIV DNA with host cell DNA is done via action of which enzyme:",
+    "options": [
+      "Integrase",
+      "Reverse transcriptase",
+      "Protease",
+      "Nuclease"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "92. Uncoating of HIV virion occurs:",
+    "options": [
+      "Outside the cell",
+      "In cytoplasm",
+      "In nucleus",
+      "At any place"
+    ],
     "correct": 1
+  },
+  {
+    "question": "93. Protein of HIV that helps in its fusion with T cell:",
+    "options": [
+      "gp31",
+      "gp120",
+      "gp141",
+      "gp41"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "94. Common among all viruses during their infectious cycles:",
+    "options": [
+      "DNA replication in cytoplasm",
+      "Translation in cytoplasm",
+      "Transcription in nucleus",
+      "Reverse transcription in cytoplasm"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "95. Receptors proteins present on helper T-lymphocytes where an HIV particle binds:",
+    "options": [
+      "CD4",
+      "CD8",
+      "CD2",
+      "CD1"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "96. Ultra violet rays specifically destroy _____ of viruses.",
+    "options": [
+      "Coat",
+      "Genome",
+      "Envelope",
+      "Capsomeres"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "97. A provirus may be referred to as:",
+    "options": [
+      "Replicated viral genome",
+      "Integrated viral genome",
+      "Double stranded viral RNA",
+      "Single stranded viral RNA"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "98. It mediates fusion between HIV envelope and host cell membrane:",
+    "options": [
+      "gp17",
+      "gp41",
+      "gp120",
+      "gp24"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "99. Virus can only survive and reproduce inside a:",
+    "options": [
+      "Animal cells",
+      "Bacterial cells",
+      "Living cells",
+      "Non-living cells"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "100. The genome of influenza virus is made up of:",
+    "options": [
+      "Single stranded RNA",
+      "Double stranded DNA",
+      "Single stranded DNA",
+      "Double stranded RNA"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "101. Which of the following is not related to enveloped virus?",
+    "options": [
+      "They survive for a short time",
+      "They are tolerant to antibodies",
+      "Their envelop is sensitive to sunlight",
+      "Envelope is derived from host"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "102. Poliovirus is an example of:",
+    "options": [
+      "Spherical viruses",
+      "Tadpole shaped viruses",
+      "Rod shaped viruses",
+      "Helical shaped virus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "103. Which of the following is a DNA virus?",
+    "options": [
+      "Polio virus",
+      "Influenza virus",
+      "Herpes virus",
+      "Mumps virus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "104. Which of the following is the simplest forms of pathogens causing disease?",
+    "options": [
+      "Viruses",
+      "Prions",
+      "Fungus",
+      "Amoeba"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "105. Which is not a viral disease?",
+    "options": [
+      "AIDS",
+      "Malaria",
+      "Chicken pox",
+      "Influenza"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "106. How many pieces of ribonucleic acid (RNA) make up the genome of influenza virus?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "107. Choose the entities which requires a single cellular gene to encode the protein making up the organism:",
+    "options": [
+      "Viroid",
+      "Prions",
+      "Virus",
+      "Virion"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "108. _____ infection is caused by a viroid:",
+    "options": [
+      "Hepatitis A",
+      "Hepatitis D",
+      "Mad cow disease",
+      "Mysterious brain infection"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "109. The molecules used to control virus during infection of animal cells are:",
+    "options": [
+      "Interferon",
+      "Histone",
+      "Antigen",
+      "Serum"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "110. The provirus of HIV is structurally and chemically made up of?",
+    "options": [
+      "ssRNA",
+      "ssDNA",
+      "dsRNA",
+      "dsDNA"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "111. The genetic code of _____ is bound by a lipid membrane?",
+    "options": [
+      "Enterovirus",
+      "Flu virus",
+      "Hepatitis A virus",
+      "Polio virus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "112. A virus recognizes its specific host organism by which characteristics?",
+    "options": [
+      "Viral envelope",
+      "Viral genome",
+      "Host cytoplasm",
+      "Host genome"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "113. In the life cycle of a bacteriophage, the lysozymes are required in which of the following steps of infection process?",
+    "options": [
+      "Genome injection",
+      "Penetration",
+      "Replication",
+      "Adsorption"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "114. The side of sheath which is attached to head of bacteriophage is called:",
+    "options": [
+      "Capsid",
+      "Collar",
+      "Core",
+      "End plate"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "115. Where are the enzymes required for the replication of HIV virus located?",
+    "options": [
+      "In the protein spikes",
+      "Surrounding the viral core",
+      "Inside the capsid",
+      "Outside the capsid"
+    ],
+    "correct": 2
   }
 ];
